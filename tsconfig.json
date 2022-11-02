@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "types": ["chrome"],
+    "rootDir": "./src",
+    "outDir": "dist/js"
+  },
+  "include": ["src"],
+}
